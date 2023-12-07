@@ -1,0 +1,16 @@
+I am having an exception when I tried to run the WebSocket. Here is the screenshot https://app.screencast.com/9eYytO53r0GnI
+
+Following are the test cases for the testing of WebSocket: 
+
+1. Verify that a connection can be successfully established to ws://localhost:3333/currency.
+2. Validate that the connection fails gracefully if the WebSocket server is not running.
+3. Ensure that the script receives updated cryptocurrency prices as WebSocket messages.
+4. Check the correct parsing of the received data for cryptocurrency prices.
+5. Verify that the script can handle receiving data at the expected interval (every 5 seconds).
+6. Test the behavior when receiving malformed or unexpected data.
+7. Check that the script can gracefully close the WebSocket connection.
+8. Verify that the script handles unexpected connection closures from the server.
+9. Test scenarios where the server forcefully closes the connection.
+10. Validate the script's behavior when receiving invalid or malformed WebSocket frames.
+11. Test error handling when encountering network issues or timeouts.
+12. Evaluate the script's performance under normal load conditions.
