@@ -22,3 +22,8 @@ Start the API
 ```shell
 npm run start
 ```
+
+Test the JEST cases
+```shell
+npm test
+```
